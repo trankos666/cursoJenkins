@@ -11,12 +11,12 @@ public class App
         System.out.println( "Hello Jenkins!" );
     }
     
-    public static void doblar( int numero )
+    public static int doblar( int numero )
     {
         return numero*2;
     }
     
-        public static void mayor( int numero1, int numero2 )
+        public static int mayor( int numero1, int numero2 )
     {
         
         /*if numero1 > numero2{
