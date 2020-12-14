@@ -10,4 +10,31 @@ public class App
     {
         System.out.println( "Hello Jenkins!" );
     }
+    
+    public static void doblar( int numero )
+    {
+        return numero*2;
+    }
+    
+        public static void mayor( int numero1, int numero2 )
+    {
+        
+        /*if numero1 > numero2{
+            return mumero1
+        }
+        return numero2;
+        
+        */
+        
+        return numero1 > numero2 ? numero1 : numero2 ;
+
+        
+        
+        
+        
+        
+    }
+    
+    
+    
 }
